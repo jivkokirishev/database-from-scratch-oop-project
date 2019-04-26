@@ -7,201 +7,197 @@
 
 #include "../Collection.cpp"
 
-template<typename T>
-struct Node {
-    T data;
-    Node *next;
-    Node *previous;
+namespace list {
+    template<typename T>
+    struct Node {
+        T data;
+        Node *next;
+        Node *previous;
+    };
 
-    ~Node() {
-        delete data;
-    }
-};
+    template<typename T>
+    class DoublyLinkedList : public collection::Collection<T> {
 
-template<typename T>
-class DoublyLinkedList : public collection::Collection<T> {
+        Node<T> *top;
+        Node<T> *bottom;
+        int element_count;
 
-    Node<T> *top;
-    Node<T> *bottom;
-    int element_count;
+        void Copy(DoublyLinkedList const &linked_list);
 
-    void Copy(DoublyLinkedList const &linked_list);
+        void Erase();
 
-    void Erase();
+        Node<T> *GoToNode(int index);
 
-    Node<T> &GoToNode(int index);
+        bool IsNodeAtIndexInList(int index) const;
 
-    bool IsNodeAtIndexInList(int index) const;
+    public:
+        DoublyLinkedList();
 
-public:
-    DoublyLinkedList();
+        DoublyLinkedList(DoublyLinkedList const &linked_list);
 
-    DoublyLinkedList(DoublyLinkedList const &linked_list);
+        DoublyLinkedList &operator=(DoublyLinkedList const &linked_list);
 
-    DoublyLinkedList &operator=(DoublyLinkedList const &linked_list);
+        bool IsEmpty() const;
 
-    T &operator[](int index);
+        void Add(T const &element);
 
-    bool IsEmpty() const;
+        void EditAt(int index, T const &element);
 
-    void Add(T const &element);
+        void RemoveAt(int index);
 
-    void EditAt(int index, T const &element);
+        T ElementAt(int index);
 
-    void RemoveAt(int index);
+        int GetElementCount() const;
 
-    int GetElementCount();
+        ~DoublyLinkedList();
+    };
 
-    ~DoublyLinkedList();
-};
-
-template<typename T>
-DoublyLinkedList<T>::DoublyLinkedList(): top(nullptr), bottom(nullptr), element_count(0) {
-}
-
-template<typename T>
-bool DoublyLinkedList<T>::IsEmpty() const {
-    return top == nullptr && bottom == nullptr;
-}
-
-template<typename T>
-void DoublyLinkedList<T>::Add(T const &element) {
-    if (!IsEmpty()) {
-        Node<T> *tmp = new Node<T>;
-
-
-        tmp->previous = bottom;
-        tmp->data = element;
-        tmp->next = nullptr;
-
-        bottom->next = tmp;
-
-        bottom = tmp;
-    } else {
-        Node<T> *tmp = new Node<T>;
-
-
-        tmp->previous = nullptr;
-        tmp->data = element;
-        tmp->next = nullptr;
-
-        top = tmp;
-        bottom = tmp;
+    template<typename T>
+    DoublyLinkedList<T>::DoublyLinkedList(): top(nullptr), bottom(nullptr), element_count(0) {
     }
 
-    element_count += 1;
-}
-
-template<typename T>
-void DoublyLinkedList<T>::Copy(DoublyLinkedList<T> const &linked_list) {
-    top = nullptr;
-    bottom = nullptr;
-    element_count = linked_list.element_count;
-
-    Node<T> *topNode = linked_list.top;
-
-    while (topNode != nullptr) {
-        this->Add(topNode->data);
-        topNode = topNode->next;
-    }
-}
-
-template<typename T>
-DoublyLinkedList<T>::DoublyLinkedList(DoublyLinkedList<T> const &linked_list) {
-    Copy(linked_list);
-}
-
-template<typename T>
-void DoublyLinkedList<T>::Erase() {
-    while (!IsEmpty()) {
-        RemoveAt(0);
-    }
-}
-
-template<typename T>
-DoublyLinkedList<T>::~DoublyLinkedList() {
-    Erase();
-}
-
-template<typename T>
-DoublyLinkedList<T> &DoublyLinkedList<T>::operator=(DoublyLinkedList<T> const &linked_list) {
-    if (this != &linked_list) {
-        Erase();
-        Copy(linked_list);
-    }
-    return *this;
-}
-
-template<typename T>
-void DoublyLinkedList<T>::EditAt(int index, const T &element) {
-    Node<T> &nodeAtIndex = GoToNode(index);
-
-    delete nodeAtIndex.data;
-
-    nodeAtIndex.data = element;
-}
-
-template<typename T>
-int DoublyLinkedList<T>::GetElementCount() {
-    return element_count;
-}
-
-template<typename T>
-Node<T> &DoublyLinkedList<T>::GoToNode(int index) {
-    if (!IsNodeAtIndexInList(index)) {
-        // TODO: Throw an exception!
-        return nullptr;
+    template<typename T>
+    bool DoublyLinkedList<T>::IsEmpty() const {
+        return top == nullptr && bottom == nullptr;
     }
 
-    Node<T> &currentNode = top;
-    for (int i = 1; i < index; i++) {
-        currentNode = top->next;
+    template<typename T>
+    void DoublyLinkedList<T>::Add(T const &element) {
+        if (!IsEmpty()) {
+            Node<T> *tmp = new Node<T>;
+
+
+            tmp->previous = bottom;
+            tmp->data = element;
+            tmp->next = nullptr;
+
+            bottom->next = tmp;
+
+            bottom = tmp;
+        } else {
+            Node<T> *tmp = new Node<T>;
+
+
+            tmp->previous = nullptr;
+            tmp->data = element;
+            tmp->next = nullptr;
+
+            top = tmp;
+            bottom = tmp;
+        }
+
+        element_count += 1;
     }
 
-    return currentNode;
-}
-
-template<typename T>
-T &DoublyLinkedList<T>::operator[](int index) {
-    Node<T> nodeAtIndex = GoToNode(index);
-
-    T result = nodeAtIndex.data;
-
-    return result;
-}
-
-template<typename T>
-void DoublyLinkedList<T>::RemoveAt(int index) {
-
-    if (!IsNodeAtIndexInList(index)) {
-        // TODO: Throw an exception!
-        return;
-    }
-
-    Node<T> &nodeAtIndex = GoToNode(index);
-
-    Node<T> &nextNode = nodeAtIndex.next;
-    Node<T> &previousNode = nodeAtIndex.previous;
-
-    if (nextNode != nullptr) {
-        nextNode.previous = previousNode;
-    }
-    if (previousNode != nullptr) {
-        previousNode.next = nextNode;
-    }
-    if (nextNode == nullptr && previousNode == nullptr) {
+    template<typename T>
+    void DoublyLinkedList<T>::Copy(DoublyLinkedList<T> const &linked_list) {
         top = nullptr;
         bottom = nullptr;
+        element_count = linked_list.element_count;
+
+        Node<T> *topNode = linked_list.top;
+
+        while (topNode != nullptr) {
+            this->Add(topNode->data);
+            topNode = topNode->next;
+        }
     }
 
-    element_count -= 1;
+    template<typename T>
+    DoublyLinkedList<T>::DoublyLinkedList(DoublyLinkedList<T> const &linked_list) {
+        Copy(linked_list);
+    }
 
-    delete nodeAtIndex;
-}
+    template<typename T>
+    void DoublyLinkedList<T>::Erase() {
+        while (!IsEmpty()) {
+            RemoveAt(0);
+        }
+    }
 
-template<typename T>
-bool DoublyLinkedList<T>::IsNodeAtIndexInList(int index) const {
-    return GetElementCount() > index;
+    template<typename T>
+    DoublyLinkedList<T>::~DoublyLinkedList() {
+        Erase();
+    }
+
+    template<typename T>
+    DoublyLinkedList<T> &DoublyLinkedList<T>::operator=(DoublyLinkedList<T> const &linked_list) {
+        if (this != &linked_list) {
+            Erase();
+            Copy(linked_list);
+        }
+        return *this;
+    }
+
+    template<typename T>
+    void DoublyLinkedList<T>::EditAt(int index, const T &element) {
+        Node<T> *nodeAtIndex = GoToNode(index);
+
+        nodeAtIndex->data = element;
+    }
+
+    template<typename T>
+    int DoublyLinkedList<T>::GetElementCount() const {
+        return element_count;
+    }
+
+    template<typename T>
+    Node<T> *DoublyLinkedList<T>::GoToNode(int index) {
+        if (!IsNodeAtIndexInList(index)) {
+            // TODO: Throw an exception!
+            return nullptr;
+        }
+
+        Node<T> *currentNode = top;
+        for (int i = 0; i < index; i++) {
+            currentNode = top->next;
+        }
+
+        return currentNode;
+    }
+
+    template<typename T>
+    void DoublyLinkedList<T>::RemoveAt(int index) {
+
+        if (!IsNodeAtIndexInList(index)) {
+            // TODO: Throw an exception!
+            return;
+        }
+
+        Node<T> *nodeAtIndex = GoToNode(index);
+
+        Node<T> *nextNode = nodeAtIndex->next;
+        Node<T> *previousNode = nodeAtIndex->previous;
+
+        if (nextNode != nullptr) {
+            nextNode->previous = previousNode;
+        }
+        if (previousNode != nullptr) {
+            previousNode->next = nextNode;
+        }
+        if (nextNode == nullptr && previousNode == nullptr) {
+            top = nullptr;
+            bottom = nullptr;
+        }
+
+        element_count -= 1;
+
+        delete nodeAtIndex;
+    }
+
+    template<typename T>
+    bool DoublyLinkedList<T>::IsNodeAtIndexInList(int index) const {
+        return GetElementCount() > index;
+    }
+
+    template<typename T>
+    T DoublyLinkedList<T>::ElementAt(int index) {
+        Node<T> *nodeAtIndex = GoToNode(index);
+
+        int result = nodeAtIndex->data;
+
+        return result;
+    }
 }
 
 #endif //DATABASE_FROM_SCRATCH_OOP_PROJECT
