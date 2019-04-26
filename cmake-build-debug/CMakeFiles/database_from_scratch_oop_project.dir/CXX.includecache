@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/main.cpp
+iostream
+-
+src/collections/Collection.cpp
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/collections/Collection.cpp
+src/collections/doubly_linked_list/DoublyLinkedList.cpp
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/collections/doubly_linked_list/DoublyLinkedList.cpp
+
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/collections/Collection.cpp
+
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/collections/doubly_linked_list/DoublyLinkedList.cpp
+../Collection.cpp
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/collections/Collection.cpp
+

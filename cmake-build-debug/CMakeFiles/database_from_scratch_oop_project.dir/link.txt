@@ -1,0 +1,1 @@
+/usr/bin/c++  -g   CMakeFiles/database_from_scratch_oop_project.dir/main.cpp.o CMakeFiles/database_from_scratch_oop_project.dir/src/collections/Collection.cpp.o CMakeFiles/database_from_scratch_oop_project.dir/src/collections/doubly_linked_list/DoublyLinkedList.cpp.o  -o database_from_scratch_oop_project 
