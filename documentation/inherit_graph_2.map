@@ -1,0 +1,6 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classdb__components_1_1abstract_1_1_type.html" title="db_components::abstract\l::Type" alt="" coords="5,71,175,112"/>
+<area shape="rect" id="node2" href="$classdb__components_1_1implementation_1_1_integer.html" title="db_components::implementation\l::Integer" alt="" coords="223,5,433,47"/>
+<area shape="rect" id="node3" href="$classdb__components_1_1implementation_1_1_real.html" title="db_components::implementation\l::Real" alt="" coords="223,71,433,112"/>
+<area shape="rect" id="node4" href="$classdb__components_1_1implementation_1_1_string.html" title="db_components::implementation\l::String" alt="" coords="223,136,433,177"/>
+</map>
