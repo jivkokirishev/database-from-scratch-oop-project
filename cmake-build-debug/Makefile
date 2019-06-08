@@ -204,6 +204,465 @@ src/collections/doubly_linked_list/DoublyLinkedList.cpp.s:
 	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/collections/doubly_linked_list/DoublyLinkedList.cpp.s
 .PHONY : src/collections/doubly_linked_list/DoublyLinkedList.cpp.s
 
+src/database_components/abstracts/Column.o: src/database_components/abstracts/Column.cpp.o
+
+.PHONY : src/database_components/abstracts/Column.o
+
+# target to build an object file
+src/database_components/abstracts/Column.cpp.o:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/abstracts/Column.cpp.o
+.PHONY : src/database_components/abstracts/Column.cpp.o
+
+src/database_components/abstracts/Column.i: src/database_components/abstracts/Column.cpp.i
+
+.PHONY : src/database_components/abstracts/Column.i
+
+# target to preprocess a source file
+src/database_components/abstracts/Column.cpp.i:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/abstracts/Column.cpp.i
+.PHONY : src/database_components/abstracts/Column.cpp.i
+
+src/database_components/abstracts/Column.s: src/database_components/abstracts/Column.cpp.s
+
+.PHONY : src/database_components/abstracts/Column.s
+
+# target to generate assembly for a file
+src/database_components/abstracts/Column.cpp.s:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/abstracts/Column.cpp.s
+.PHONY : src/database_components/abstracts/Column.cpp.s
+
+src/database_components/abstracts/Type.o: src/database_components/abstracts/Type.cpp.o
+
+.PHONY : src/database_components/abstracts/Type.o
+
+# target to build an object file
+src/database_components/abstracts/Type.cpp.o:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/abstracts/Type.cpp.o
+.PHONY : src/database_components/abstracts/Type.cpp.o
+
+src/database_components/abstracts/Type.i: src/database_components/abstracts/Type.cpp.i
+
+.PHONY : src/database_components/abstracts/Type.i
+
+# target to preprocess a source file
+src/database_components/abstracts/Type.cpp.i:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/abstracts/Type.cpp.i
+.PHONY : src/database_components/abstracts/Type.cpp.i
+
+src/database_components/abstracts/Type.s: src/database_components/abstracts/Type.cpp.s
+
+.PHONY : src/database_components/abstracts/Type.s
+
+# target to generate assembly for a file
+src/database_components/abstracts/Type.cpp.s:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/abstracts/Type.cpp.s
+.PHONY : src/database_components/abstracts/Type.cpp.s
+
+src/database_components/enums/ColumnType.o: src/database_components/enums/ColumnType.cpp.o
+
+.PHONY : src/database_components/enums/ColumnType.o
+
+# target to build an object file
+src/database_components/enums/ColumnType.cpp.o:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/enums/ColumnType.cpp.o
+.PHONY : src/database_components/enums/ColumnType.cpp.o
+
+src/database_components/enums/ColumnType.i: src/database_components/enums/ColumnType.cpp.i
+
+.PHONY : src/database_components/enums/ColumnType.i
+
+# target to preprocess a source file
+src/database_components/enums/ColumnType.cpp.i:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/enums/ColumnType.cpp.i
+.PHONY : src/database_components/enums/ColumnType.cpp.i
+
+src/database_components/enums/ColumnType.s: src/database_components/enums/ColumnType.cpp.s
+
+.PHONY : src/database_components/enums/ColumnType.s
+
+# target to generate assembly for a file
+src/database_components/enums/ColumnType.cpp.s:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/enums/ColumnType.cpp.s
+.PHONY : src/database_components/enums/ColumnType.cpp.s
+
+src/database_components/implementations/Database.o: src/database_components/implementations/Database.cpp.o
+
+.PHONY : src/database_components/implementations/Database.o
+
+# target to build an object file
+src/database_components/implementations/Database.cpp.o:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/Database.cpp.o
+.PHONY : src/database_components/implementations/Database.cpp.o
+
+src/database_components/implementations/Database.i: src/database_components/implementations/Database.cpp.i
+
+.PHONY : src/database_components/implementations/Database.i
+
+# target to preprocess a source file
+src/database_components/implementations/Database.cpp.i:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/Database.cpp.i
+.PHONY : src/database_components/implementations/Database.cpp.i
+
+src/database_components/implementations/Database.s: src/database_components/implementations/Database.cpp.s
+
+.PHONY : src/database_components/implementations/Database.s
+
+# target to generate assembly for a file
+src/database_components/implementations/Database.cpp.s:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/Database.cpp.s
+.PHONY : src/database_components/implementations/Database.cpp.s
+
+src/database_components/implementations/Integer.o: src/database_components/implementations/Integer.cpp.o
+
+.PHONY : src/database_components/implementations/Integer.o
+
+# target to build an object file
+src/database_components/implementations/Integer.cpp.o:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/Integer.cpp.o
+.PHONY : src/database_components/implementations/Integer.cpp.o
+
+src/database_components/implementations/Integer.i: src/database_components/implementations/Integer.cpp.i
+
+.PHONY : src/database_components/implementations/Integer.i
+
+# target to preprocess a source file
+src/database_components/implementations/Integer.cpp.i:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/Integer.cpp.i
+.PHONY : src/database_components/implementations/Integer.cpp.i
+
+src/database_components/implementations/Integer.s: src/database_components/implementations/Integer.cpp.s
+
+.PHONY : src/database_components/implementations/Integer.s
+
+# target to generate assembly for a file
+src/database_components/implementations/Integer.cpp.s:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/Integer.cpp.s
+.PHONY : src/database_components/implementations/Integer.cpp.s
+
+src/database_components/implementations/IntegerColumn.o: src/database_components/implementations/IntegerColumn.cpp.o
+
+.PHONY : src/database_components/implementations/IntegerColumn.o
+
+# target to build an object file
+src/database_components/implementations/IntegerColumn.cpp.o:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/IntegerColumn.cpp.o
+.PHONY : src/database_components/implementations/IntegerColumn.cpp.o
+
+src/database_components/implementations/IntegerColumn.i: src/database_components/implementations/IntegerColumn.cpp.i
+
+.PHONY : src/database_components/implementations/IntegerColumn.i
+
+# target to preprocess a source file
+src/database_components/implementations/IntegerColumn.cpp.i:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/IntegerColumn.cpp.i
+.PHONY : src/database_components/implementations/IntegerColumn.cpp.i
+
+src/database_components/implementations/IntegerColumn.s: src/database_components/implementations/IntegerColumn.cpp.s
+
+.PHONY : src/database_components/implementations/IntegerColumn.s
+
+# target to generate assembly for a file
+src/database_components/implementations/IntegerColumn.cpp.s:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/IntegerColumn.cpp.s
+.PHONY : src/database_components/implementations/IntegerColumn.cpp.s
+
+src/database_components/implementations/Real.o: src/database_components/implementations/Real.cpp.o
+
+.PHONY : src/database_components/implementations/Real.o
+
+# target to build an object file
+src/database_components/implementations/Real.cpp.o:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/Real.cpp.o
+.PHONY : src/database_components/implementations/Real.cpp.o
+
+src/database_components/implementations/Real.i: src/database_components/implementations/Real.cpp.i
+
+.PHONY : src/database_components/implementations/Real.i
+
+# target to preprocess a source file
+src/database_components/implementations/Real.cpp.i:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/Real.cpp.i
+.PHONY : src/database_components/implementations/Real.cpp.i
+
+src/database_components/implementations/Real.s: src/database_components/implementations/Real.cpp.s
+
+.PHONY : src/database_components/implementations/Real.s
+
+# target to generate assembly for a file
+src/database_components/implementations/Real.cpp.s:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/Real.cpp.s
+.PHONY : src/database_components/implementations/Real.cpp.s
+
+src/database_components/implementations/RealNumberColumn.o: src/database_components/implementations/RealNumberColumn.cpp.o
+
+.PHONY : src/database_components/implementations/RealNumberColumn.o
+
+# target to build an object file
+src/database_components/implementations/RealNumberColumn.cpp.o:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/RealNumberColumn.cpp.o
+.PHONY : src/database_components/implementations/RealNumberColumn.cpp.o
+
+src/database_components/implementations/RealNumberColumn.i: src/database_components/implementations/RealNumberColumn.cpp.i
+
+.PHONY : src/database_components/implementations/RealNumberColumn.i
+
+# target to preprocess a source file
+src/database_components/implementations/RealNumberColumn.cpp.i:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/RealNumberColumn.cpp.i
+.PHONY : src/database_components/implementations/RealNumberColumn.cpp.i
+
+src/database_components/implementations/RealNumberColumn.s: src/database_components/implementations/RealNumberColumn.cpp.s
+
+.PHONY : src/database_components/implementations/RealNumberColumn.s
+
+# target to generate assembly for a file
+src/database_components/implementations/RealNumberColumn.cpp.s:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/RealNumberColumn.cpp.s
+.PHONY : src/database_components/implementations/RealNumberColumn.cpp.s
+
+src/database_components/implementations/String.o: src/database_components/implementations/String.cpp.o
+
+.PHONY : src/database_components/implementations/String.o
+
+# target to build an object file
+src/database_components/implementations/String.cpp.o:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/String.cpp.o
+.PHONY : src/database_components/implementations/String.cpp.o
+
+src/database_components/implementations/String.i: src/database_components/implementations/String.cpp.i
+
+.PHONY : src/database_components/implementations/String.i
+
+# target to preprocess a source file
+src/database_components/implementations/String.cpp.i:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/String.cpp.i
+.PHONY : src/database_components/implementations/String.cpp.i
+
+src/database_components/implementations/String.s: src/database_components/implementations/String.cpp.s
+
+.PHONY : src/database_components/implementations/String.s
+
+# target to generate assembly for a file
+src/database_components/implementations/String.cpp.s:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/String.cpp.s
+.PHONY : src/database_components/implementations/String.cpp.s
+
+src/database_components/implementations/StringColumn.o: src/database_components/implementations/StringColumn.cpp.o
+
+.PHONY : src/database_components/implementations/StringColumn.o
+
+# target to build an object file
+src/database_components/implementations/StringColumn.cpp.o:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/StringColumn.cpp.o
+.PHONY : src/database_components/implementations/StringColumn.cpp.o
+
+src/database_components/implementations/StringColumn.i: src/database_components/implementations/StringColumn.cpp.i
+
+.PHONY : src/database_components/implementations/StringColumn.i
+
+# target to preprocess a source file
+src/database_components/implementations/StringColumn.cpp.i:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/StringColumn.cpp.i
+.PHONY : src/database_components/implementations/StringColumn.cpp.i
+
+src/database_components/implementations/StringColumn.s: src/database_components/implementations/StringColumn.cpp.s
+
+.PHONY : src/database_components/implementations/StringColumn.s
+
+# target to generate assembly for a file
+src/database_components/implementations/StringColumn.cpp.s:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/StringColumn.cpp.s
+.PHONY : src/database_components/implementations/StringColumn.cpp.s
+
+src/database_components/implementations/Table.o: src/database_components/implementations/Table.cpp.o
+
+.PHONY : src/database_components/implementations/Table.o
+
+# target to build an object file
+src/database_components/implementations/Table.cpp.o:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/Table.cpp.o
+.PHONY : src/database_components/implementations/Table.cpp.o
+
+src/database_components/implementations/Table.i: src/database_components/implementations/Table.cpp.i
+
+.PHONY : src/database_components/implementations/Table.i
+
+# target to preprocess a source file
+src/database_components/implementations/Table.cpp.i:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/Table.cpp.i
+.PHONY : src/database_components/implementations/Table.cpp.i
+
+src/database_components/implementations/Table.s: src/database_components/implementations/Table.cpp.s
+
+.PHONY : src/database_components/implementations/Table.s
+
+# target to generate assembly for a file
+src/database_components/implementations/Table.cpp.s:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_components/implementations/Table.cpp.s
+.PHONY : src/database_components/implementations/Table.cpp.s
+
+src/database_manager/AggregationOperations.o: src/database_manager/AggregationOperations.cpp.o
+
+.PHONY : src/database_manager/AggregationOperations.o
+
+# target to build an object file
+src/database_manager/AggregationOperations.cpp.o:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_manager/AggregationOperations.cpp.o
+.PHONY : src/database_manager/AggregationOperations.cpp.o
+
+src/database_manager/AggregationOperations.i: src/database_manager/AggregationOperations.cpp.i
+
+.PHONY : src/database_manager/AggregationOperations.i
+
+# target to preprocess a source file
+src/database_manager/AggregationOperations.cpp.i:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_manager/AggregationOperations.cpp.i
+.PHONY : src/database_manager/AggregationOperations.cpp.i
+
+src/database_manager/AggregationOperations.s: src/database_manager/AggregationOperations.cpp.s
+
+.PHONY : src/database_manager/AggregationOperations.s
+
+# target to generate assembly for a file
+src/database_manager/AggregationOperations.cpp.s:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_manager/AggregationOperations.cpp.s
+.PHONY : src/database_manager/AggregationOperations.cpp.s
+
+src/database_manager/DbFileManager.o: src/database_manager/DbFileManager.cpp.o
+
+.PHONY : src/database_manager/DbFileManager.o
+
+# target to build an object file
+src/database_manager/DbFileManager.cpp.o:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_manager/DbFileManager.cpp.o
+.PHONY : src/database_manager/DbFileManager.cpp.o
+
+src/database_manager/DbFileManager.i: src/database_manager/DbFileManager.cpp.i
+
+.PHONY : src/database_manager/DbFileManager.i
+
+# target to preprocess a source file
+src/database_manager/DbFileManager.cpp.i:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_manager/DbFileManager.cpp.i
+.PHONY : src/database_manager/DbFileManager.cpp.i
+
+src/database_manager/DbFileManager.s: src/database_manager/DbFileManager.cpp.s
+
+.PHONY : src/database_manager/DbFileManager.s
+
+# target to generate assembly for a file
+src/database_manager/DbFileManager.cpp.s:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_manager/DbFileManager.cpp.s
+.PHONY : src/database_manager/DbFileManager.cpp.s
+
+src/database_manager/DbStreamManager.o: src/database_manager/DbStreamManager.cpp.o
+
+.PHONY : src/database_manager/DbStreamManager.o
+
+# target to build an object file
+src/database_manager/DbStreamManager.cpp.o:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_manager/DbStreamManager.cpp.o
+.PHONY : src/database_manager/DbStreamManager.cpp.o
+
+src/database_manager/DbStreamManager.i: src/database_manager/DbStreamManager.cpp.i
+
+.PHONY : src/database_manager/DbStreamManager.i
+
+# target to preprocess a source file
+src/database_manager/DbStreamManager.cpp.i:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_manager/DbStreamManager.cpp.i
+.PHONY : src/database_manager/DbStreamManager.cpp.i
+
+src/database_manager/DbStreamManager.s: src/database_manager/DbStreamManager.cpp.s
+
+.PHONY : src/database_manager/DbStreamManager.s
+
+# target to generate assembly for a file
+src/database_manager/DbStreamManager.cpp.s:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_manager/DbStreamManager.cpp.s
+.PHONY : src/database_manager/DbStreamManager.cpp.s
+
+src/database_manager/enums/OperationType.o: src/database_manager/enums/OperationType.cpp.o
+
+.PHONY : src/database_manager/enums/OperationType.o
+
+# target to build an object file
+src/database_manager/enums/OperationType.cpp.o:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_manager/enums/OperationType.cpp.o
+.PHONY : src/database_manager/enums/OperationType.cpp.o
+
+src/database_manager/enums/OperationType.i: src/database_manager/enums/OperationType.cpp.i
+
+.PHONY : src/database_manager/enums/OperationType.i
+
+# target to preprocess a source file
+src/database_manager/enums/OperationType.cpp.i:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_manager/enums/OperationType.cpp.i
+.PHONY : src/database_manager/enums/OperationType.cpp.i
+
+src/database_manager/enums/OperationType.s: src/database_manager/enums/OperationType.cpp.s
+
+.PHONY : src/database_manager/enums/OperationType.s
+
+# target to generate assembly for a file
+src/database_manager/enums/OperationType.cpp.s:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/database_manager/enums/OperationType.cpp.s
+.PHONY : src/database_manager/enums/OperationType.cpp.s
+
+src/ux_components/CommandParser.o: src/ux_components/CommandParser.cpp.o
+
+.PHONY : src/ux_components/CommandParser.o
+
+# target to build an object file
+src/ux_components/CommandParser.cpp.o:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/ux_components/CommandParser.cpp.o
+.PHONY : src/ux_components/CommandParser.cpp.o
+
+src/ux_components/CommandParser.i: src/ux_components/CommandParser.cpp.i
+
+.PHONY : src/ux_components/CommandParser.i
+
+# target to preprocess a source file
+src/ux_components/CommandParser.cpp.i:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/ux_components/CommandParser.cpp.i
+.PHONY : src/ux_components/CommandParser.cpp.i
+
+src/ux_components/CommandParser.s: src/ux_components/CommandParser.cpp.s
+
+.PHONY : src/ux_components/CommandParser.s
+
+# target to generate assembly for a file
+src/ux_components/CommandParser.cpp.s:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/ux_components/CommandParser.cpp.s
+.PHONY : src/ux_components/CommandParser.cpp.s
+
+src/ux_components/ConsoleLauncher.o: src/ux_components/ConsoleLauncher.cpp.o
+
+.PHONY : src/ux_components/ConsoleLauncher.o
+
+# target to build an object file
+src/ux_components/ConsoleLauncher.cpp.o:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/ux_components/ConsoleLauncher.cpp.o
+.PHONY : src/ux_components/ConsoleLauncher.cpp.o
+
+src/ux_components/ConsoleLauncher.i: src/ux_components/ConsoleLauncher.cpp.i
+
+.PHONY : src/ux_components/ConsoleLauncher.i
+
+# target to preprocess a source file
+src/ux_components/ConsoleLauncher.cpp.i:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/ux_components/ConsoleLauncher.cpp.i
+.PHONY : src/ux_components/ConsoleLauncher.cpp.i
+
+src/ux_components/ConsoleLauncher.s: src/ux_components/ConsoleLauncher.cpp.s
+
+.PHONY : src/ux_components/ConsoleLauncher.s
+
+# target to generate assembly for a file
+src/ux_components/ConsoleLauncher.cpp.s:
+	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/src/ux_components/ConsoleLauncher.cpp.s
+.PHONY : src/ux_components/ConsoleLauncher.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +681,57 @@ help:
 	@echo "... src/collections/doubly_linked_list/DoublyLinkedList.o"
 	@echo "... src/collections/doubly_linked_list/DoublyLinkedList.i"
 	@echo "... src/collections/doubly_linked_list/DoublyLinkedList.s"
+	@echo "... src/database_components/abstracts/Column.o"
+	@echo "... src/database_components/abstracts/Column.i"
+	@echo "... src/database_components/abstracts/Column.s"
+	@echo "... src/database_components/abstracts/Type.o"
+	@echo "... src/database_components/abstracts/Type.i"
+	@echo "... src/database_components/abstracts/Type.s"
+	@echo "... src/database_components/enums/ColumnType.o"
+	@echo "... src/database_components/enums/ColumnType.i"
+	@echo "... src/database_components/enums/ColumnType.s"
+	@echo "... src/database_components/implementations/Database.o"
+	@echo "... src/database_components/implementations/Database.i"
+	@echo "... src/database_components/implementations/Database.s"
+	@echo "... src/database_components/implementations/Integer.o"
+	@echo "... src/database_components/implementations/Integer.i"
+	@echo "... src/database_components/implementations/Integer.s"
+	@echo "... src/database_components/implementations/IntegerColumn.o"
+	@echo "... src/database_components/implementations/IntegerColumn.i"
+	@echo "... src/database_components/implementations/IntegerColumn.s"
+	@echo "... src/database_components/implementations/Real.o"
+	@echo "... src/database_components/implementations/Real.i"
+	@echo "... src/database_components/implementations/Real.s"
+	@echo "... src/database_components/implementations/RealNumberColumn.o"
+	@echo "... src/database_components/implementations/RealNumberColumn.i"
+	@echo "... src/database_components/implementations/RealNumberColumn.s"
+	@echo "... src/database_components/implementations/String.o"
+	@echo "... src/database_components/implementations/String.i"
+	@echo "... src/database_components/implementations/String.s"
+	@echo "... src/database_components/implementations/StringColumn.o"
+	@echo "... src/database_components/implementations/StringColumn.i"
+	@echo "... src/database_components/implementations/StringColumn.s"
+	@echo "... src/database_components/implementations/Table.o"
+	@echo "... src/database_components/implementations/Table.i"
+	@echo "... src/database_components/implementations/Table.s"
+	@echo "... src/database_manager/AggregationOperations.o"
+	@echo "... src/database_manager/AggregationOperations.i"
+	@echo "... src/database_manager/AggregationOperations.s"
+	@echo "... src/database_manager/DbFileManager.o"
+	@echo "... src/database_manager/DbFileManager.i"
+	@echo "... src/database_manager/DbFileManager.s"
+	@echo "... src/database_manager/DbStreamManager.o"
+	@echo "... src/database_manager/DbStreamManager.i"
+	@echo "... src/database_manager/DbStreamManager.s"
+	@echo "... src/database_manager/enums/OperationType.o"
+	@echo "... src/database_manager/enums/OperationType.i"
+	@echo "... src/database_manager/enums/OperationType.s"
+	@echo "... src/ux_components/CommandParser.o"
+	@echo "... src/ux_components/CommandParser.i"
+	@echo "... src/ux_components/CommandParser.s"
+	@echo "... src/ux_components/ConsoleLauncher.o"
+	@echo "... src/ux_components/ConsoleLauncher.i"
+	@echo "... src/ux_components/ConsoleLauncher.s"
 .PHONY : help
 
 

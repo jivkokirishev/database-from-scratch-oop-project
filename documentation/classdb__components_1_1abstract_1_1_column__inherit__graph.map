@@ -1,0 +1,5 @@
+<map id="db_components::abstract::Column" name="db_components::abstract::Column">
+<area shape="rect" id="node2" href="$classdb__components_1_1implementation_1_1_integer_column.html" title="db_components::implementation\l::IntegerColumn" alt="" coords="223,5,433,47"/>
+<area shape="rect" id="node3" href="$classdb__components_1_1implementation_1_1_real_number_column.html" title="db_components::implementation\l::RealNumberColumn" alt="" coords="223,71,433,112"/>
+<area shape="rect" id="node4" href="$classdb__components_1_1implementation_1_1_string_column.html" title="db_components::implementation\l::StringColumn" alt="" coords="223,136,433,177"/>
+</map>

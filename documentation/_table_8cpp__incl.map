@@ -1,0 +1,14 @@
+<map id="c++/database&#45;from&#45;scratch&#45;oop&#45;project/src/database_components/implementations/Table.cpp" name="c++/database&#45;from&#45;scratch&#45;oop&#45;project/src/database_components/implementations/Table.cpp">
+<area shape="rect" id="node2" href="$_table_8h.html" title="Table.h" alt="" coords="184,124,250,151"/>
+<area shape="rect" id="node13" href="$_integer_column_8h.html" title="IntegerColumn.h" alt="" coords="766,124,884,151"/>
+<area shape="rect" id="node15" href="$_real_number_column_8h.html" title="RealNumberColumn.h" alt="" coords="274,124,424,151"/>
+<area shape="rect" id="node17" href="$_string_column_8h.html" title="StringColumn.h" alt="" coords="465,124,577,151"/>
+<area shape="rect" id="node3" href="$_collection_8cpp.html" title="../../collections/Collection.cpp" alt="" coords="522,363,717,389"/>
+<area shape="rect" id="node4" href="$_doubly_linked_list_8cpp.html" title="../../collections/doubly\l_linked_list/DoublyLinkedList.cpp" alt="" coords="281,273,497,315"/>
+<area shape="rect" id="node5" href="$_column_type_8cpp.html" title="../enums/ColumnType.cpp" alt="" coords="322,363,498,389"/>
+<area shape="rect" id="node8" href="$_column_8h.html" title="../abstracts/Column.h" alt="" coords="447,199,595,225"/>
+<area shape="rect" id="node9" href="$_type_8cpp.html" title="Type.cpp" alt="" coords="800,281,876,307"/>
+<area shape="rect" id="node14" href="$_integer_8h.html" title="Integer.h" alt="" coords="896,199,970,225"/>
+<area shape="rect" id="node16" href="$_real_8h.html" title="Real.h" alt="" coords="619,199,679,225"/>
+<area shape="rect" id="node18" href="$_string_8h.html" title="String.h" alt="" coords="805,199,872,225"/>
+</map>

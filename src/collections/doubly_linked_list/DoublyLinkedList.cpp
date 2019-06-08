@@ -10,9 +10,13 @@
 namespace list {
     template<typename T>
     struct Node {
-        T data;
+        T *data;
         Node *next;
         Node *previous;
+
+        ~Node() {
+            delete data;
+        }
     };
 
     template<typename T>
@@ -39,13 +43,13 @@ namespace list {
 
         bool IsEmpty() const;
 
-        void Add(T const &element);
+        void Add(T *element);
 
-        void EditAt(int index, T const &element);
+        void EditAt(int index, T &element);
 
         void RemoveAt(int index);
 
-        T ElementAt(int index);
+        T *ElementAt(int index);
 
         int GetElementCount() const;
 
@@ -58,11 +62,11 @@ namespace list {
 
     template<typename T>
     bool DoublyLinkedList<T>::IsEmpty() const {
-        return top == nullptr && bottom == nullptr;
+        return top == 0 && bottom == 0;
     }
 
     template<typename T>
-    void DoublyLinkedList<T>::Add(T const &element) {
+    void DoublyLinkedList<T>::Add(T *element) {
         if (!IsEmpty()) {
             Node<T> *tmp = new Node<T>;
 
@@ -130,10 +134,12 @@ namespace list {
     }
 
     template<typename T>
-    void DoublyLinkedList<T>::EditAt(int index, const T &element) {
+    void DoublyLinkedList<T>::EditAt(int index, T &element) {
         Node<T> *nodeAtIndex = GoToNode(index);
 
-        nodeAtIndex->data = element;
+        delete nodeAtIndex->data;
+
+        nodeAtIndex->data = &element;
     }
 
     template<typename T>
@@ -169,13 +175,13 @@ namespace list {
         Node<T> *nextNode = nodeAtIndex->next;
         Node<T> *previousNode = nodeAtIndex->previous;
 
-        if (nextNode != nullptr) {
+        if (nextNode != 0) {
             nextNode->previous = previousNode;
         }
-        if (previousNode != nullptr) {
+        if (previousNode != 0) {
             previousNode->next = nextNode;
         }
-        if (nextNode == nullptr && previousNode == nullptr) {
+        if (nextNode == 0 && previousNode == 0) {
             top = nullptr;
             bottom = nullptr;
         }
@@ -191,10 +197,10 @@ namespace list {
     }
 
     template<typename T>
-    T DoublyLinkedList<T>::ElementAt(int index) {
+    T *DoublyLinkedList<T>::ElementAt(int index) {
         Node<T> *nodeAtIndex = GoToNode(index);
 
-        int result = nodeAtIndex->data;
+        T *result = nodeAtIndex->data;
 
         return result;
     }

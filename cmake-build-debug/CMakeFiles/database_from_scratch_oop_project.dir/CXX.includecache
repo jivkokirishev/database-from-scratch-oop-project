@@ -13,10 +13,140 @@ src/collections/Collection.cpp
 /home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/collections/Collection.cpp
 src/collections/doubly_linked_list/DoublyLinkedList.cpp
 /home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/collections/doubly_linked_list/DoublyLinkedList.cpp
+src/database_components/abstracts/Type.cpp
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/abstracts/Type.cpp
+src/database_components/implementations/Database.h
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/Database.h
+src/database_manager/DbStreamManager.h
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_manager/DbStreamManager.h
+src/database_components/implementations/Integer.h
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/Integer.h
+src/database_components/implementations/String.h
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/String.h
+src/database_components/implementations/Real.h
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/Real.h
+src/database_manager/enums/OperationType.cpp
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_manager/enums/OperationType.cpp
+src/database_manager/DbFileManager.h
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_manager/DbFileManager.h
+src/ux_components/CommandParser.h
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/ux_components/CommandParser.h
+src/ux_components/ConsoleLauncher.h
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/ux_components/ConsoleLauncher.h
 
 /home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/collections/Collection.cpp
 
 /home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/collections/doubly_linked_list/DoublyLinkedList.cpp
 ../Collection.cpp
 /home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/collections/Collection.cpp
+
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/abstracts/Column.h
+../../collections/Collection.cpp
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/collections/Collection.cpp
+../../collections/doubly_linked_list/DoublyLinkedList.cpp
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/collections/doubly_linked_list/DoublyLinkedList.cpp
+../enums/ColumnType.cpp
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/enums/ColumnType.cpp
+Type.cpp
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/abstracts/Type.cpp
+string
+-
+
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/abstracts/Type.cpp
+cstring
+-
+iostream
+-
+../enums/ColumnType.cpp
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/enums/ColumnType.cpp
+
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/enums/ColumnType.cpp
+map
+-
+string
+-
+
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/Database.h
+vector
+-
+string
+-
+Table.h
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/Table.h
+
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/Integer.h
+../abstracts/Type.cpp
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/abstracts/Type.cpp
+
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/Real.h
+../abstracts/Type.cpp
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/abstracts/Type.cpp
+
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/String.h
+../abstracts/Type.cpp
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/abstracts/Type.cpp
+
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/Table.h
+../../collections/Collection.cpp
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/collections/Collection.cpp
+../../collections/doubly_linked_list/DoublyLinkedList.cpp
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/collections/doubly_linked_list/DoublyLinkedList.cpp
+../enums/ColumnType.cpp
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/enums/ColumnType.cpp
+../abstracts/Column.h
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/abstracts/Column.h
+vector
+-
+string
+-
+
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_manager/DbFileManager.h
+../database_components/implementations/Database.h
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/Database.h
+
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_manager/DbStreamManager.h
+iostream
+-
+string
+-
+vector
+-
+../database_components/abstracts/Type.cpp
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/abstracts/Type.cpp
+../database_components/implementations/Database.h
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/Database.h
+enums/OperationType.cpp
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_manager/enums/OperationType.cpp
+
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_manager/enums/OperationType.cpp
+map
+-
+string
+-
+
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/ux_components/CommandParser.cpp
+stdexcept
+-
+cstring
+-
+CommandParser.h
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/ux_components/CommandParser.h
+
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/ux_components/CommandParser.h
+vector
+-
+string
+-
+
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/ux_components/ConsoleLauncher.cpp
+ConsoleLauncher.h
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/ux_components/ConsoleLauncher.h
+CommandParser.h
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/ux_components/CommandParser.h
+
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/ux_components/ConsoleLauncher.h
+../database_manager/DbStreamManager.h
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_manager/DbStreamManager.h
+../database_manager/DbFileManager.h
+/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_manager/DbFileManager.h
 

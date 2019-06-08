@@ -93,6 +93,99 @@
 		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/collections/doubly_linked_list/DoublyLinkedList.cpp">
 			<Option target="database_from_scratch_oop_project"/>
 		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/abstracts/Column.cpp">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/abstracts/Column.h">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/abstracts/Type.cpp">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/enums/ColumnType.cpp">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/Database.cpp">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/Database.h">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/Integer.cpp">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/Integer.h">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/IntegerColumn.cpp">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/IntegerColumn.h">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/Real.cpp">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/Real.h">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/RealNumberColumn.cpp">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/RealNumberColumn.h">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/String.cpp">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/String.h">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/StringColumn.cpp">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/StringColumn.h">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/Table.cpp">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_components/implementations/Table.h">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_manager/AggregationOperations.cpp">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_manager/AggregationOperations.h">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_manager/DbFileManager.cpp">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_manager/DbFileManager.h">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_manager/DbStreamManager.cpp">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_manager/DbStreamManager.h">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/database_manager/enums/OperationType.cpp">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/ux_components/CommandParser.cpp">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/ux_components/CommandParser.h">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/ux_components/ConsoleLauncher.cpp">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
+		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/src/ux_components/ConsoleLauncher.h">
+			<Option target="database_from_scratch_oop_project"/>
+		</Unit>
 		<Unit filename="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

@@ -19,13 +19,13 @@ namespace collection {
 
         Collection &operator=(Collection const &) = delete;
 
-        virtual void Add(T const &element) = 0;
+        virtual void Add(T *element) = 0;
 
-        virtual void EditAt(int index, T const &element) = 0;
+        virtual void EditAt(int index, T &element) = 0;
 
         virtual void RemoveAt(int index) = 0;
 
-        virtual T ElementAt(int index) = 0;
+        virtual T *ElementAt(int index) = 0;
 
         virtual int GetElementCount() const = 0;
     };

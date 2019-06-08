@@ -71,7 +71,7 @@ CMAKE_BINARY_DIR = "/home/jivko/storage/dev projects/c++/database-from-scratch-o
 CMakeFiles/database_from_scratch_oop_project.dir/all:
 	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/depend
 	$(MAKE) -f CMakeFiles/database_from_scratch_oop_project.dir/build.make CMakeFiles/database_from_scratch_oop_project.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4 "Built target database_from_scratch_oop_project"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/cmake-build-debug/CMakeFiles" --progress-num=1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21 "Built target database_from_scratch_oop_project"
 .PHONY : CMakeFiles/database_from_scratch_oop_project.dir/all
 
 # Include target in all.
@@ -81,7 +81,7 @@ all: CMakeFiles/database_from_scratch_oop_project.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/database_from_scratch_oop_project.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/cmake-build-debug/CMakeFiles" 4
+	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/cmake-build-debug/CMakeFiles" 21
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/database_from_scratch_oop_project.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start "/home/jivko/storage/dev projects/c++/database-from-scratch-oop-project/cmake-build-debug/CMakeFiles" 0
 .PHONY : CMakeFiles/database_from_scratch_oop_project.dir/rule
